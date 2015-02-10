@@ -18,7 +18,7 @@
 #include <string>
 #include <vector>
 
-#include "item.hpp"
+#include "item/item.hpp"
 #include "rose_common/common.hpp"
 
 using namespace database_interface;
