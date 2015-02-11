@@ -19,6 +19,6 @@ catkin_package(
   DEPENDS roscpp
 )
 
-add_library(rose_datamanager_api SHARED src/rose_datamanager_api.cpp )
+add_library(rose_datamanager_api SHARED src/datamanager_api.cpp )
 
 target_link_libraries(rose_datamanager_api ${catkin_LIBRARIES})
