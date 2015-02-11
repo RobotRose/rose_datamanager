@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(datamanager)
+project(rose_datamanager)
 
 set(CMAKE_CXX_FLAGS "-std=c++0x") 
 
@@ -27,9 +27,9 @@ catkin_package(
 
 include_directories( include ${catkin_INCLUDE_DIRS} )
 
-add_executable( datamanager 	src/datamanager_node.cpp
-								src/datamanager.cpp
-								src/database_table_base.cpp
+add_executable( rose_datamanager 	src/datamanager_node.cpp
+									src/datamanager.cpp
+									src/database_table_base.cpp
 )
 
-target_link_libraries( datamanager ${catkin_LIBRARIES} )
+target_link_libraries( rose_datamanager ${catkin_LIBRARIES} )
