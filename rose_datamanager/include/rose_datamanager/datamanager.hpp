@@ -22,13 +22,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "database_table_base.hpp"
+#include "rose_database_table_base/database_table_base.hpp"
 
-#include "item.hpp"
-#include "person.hpp"
-#include "script.hpp"
-#include "waypoint.hpp"
-#include "resource.hpp"
+#include "item/item.hpp"
+#include "person/person.hpp"
+#include "script/script.hpp"
+#include "waypoint/waypoint.hpp"
+#include "resource/resource.hpp"
 
 #include "rose_common/common.hpp"
 

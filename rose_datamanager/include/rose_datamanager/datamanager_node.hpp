@@ -17,6 +17,6 @@
 #include <ros/ros.h>
 #include <stdio.h>
 
-#include "datamanager.hpp"
+#include "rose_datamanager/datamanager.hpp"
 
 #endif // DATAMANAGER_NODE_HPP

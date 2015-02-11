@@ -19,10 +19,10 @@
 #include <stdio.h>
 #include <vector>
 
-#include "item.hpp"
-#include "waypoint.hpp"
-#include "person.hpp"
-#include "script.hpp"
+#include "item/item.hpp"
+#include "waypoint/waypoint.hpp"
+#include "person/person.hpp"
+#include "script/script.hpp"
 
 class DatamanagerAPI
 {
