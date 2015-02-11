@@ -10,7 +10,7 @@
 *	description
 * 
 ***********************************************************************************/
-#include "datamanager_node.hpp"
+#include "rose_datamanager/datamanager_node.hpp"
 
 int main( int argc, char **argv )
 {

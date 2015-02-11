@@ -10,7 +10,7 @@
 *	description
 * 
 ***********************************************************************************/
-#include "datamanager.hpp"
+#include "rose_datamanager/datamanager.hpp"
 
 Datamanager::Datamanager( std::string name, ros::NodeHandle n )
 	: name_ ( name )
